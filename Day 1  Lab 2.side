@@ -1,0 +1,114 @@
+{
+  "id": "f54131c1-a7a5-4307-9fda-c8be3815d557",
+  "version": "2.0",
+  "name": "Day 1  Lab 2",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "3f089129-868b-4946-b531-b96b85b9a729",
+    "name": "Test 2 Lab 2",
+    "commands": [{
+      "id": "876b81a3-465b-4b69-9706-c12da5d2b97e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0538d7ab-8670-4daa-8306-743e512e277e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57f07a0d-0322-4ec1-a5ad-3aec8945f717",
+      "comment": "",
+      "command": "echo",
+      "target": "hello world",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eec8922a-0fbb-4692-ba6f-a0b05cff4cc5",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "messho"
+    }, {
+      "id": "0adabc45-7df8-46d3-ac07-dd3912145a56",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ed31496d-35c0-4412-b611-08a1be6f4346",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=i",
+      "targets": [
+        ["css=i", "css:finder"],
+        ["xpath=//a[@id='fprsl']/b/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'meesho')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d6f3993-8c03-4bec-ba60-9efad0c1bc8b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=i",
+      "targets": [
+        ["css=i", "css:finder"],
+        ["xpath=//a[@id='fprsl']/b/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'meesho')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6dc1ad1-ba2f-45db-96aa-5708d918ff1b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Meesho: Online Shopping Site for Fashion, Electronics, Home ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b079b383-c9d7-42a2-9531-bc967d123d3b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Meesho: Online Shopping Site for Fashion, Electronics, Home ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a9c25ce3-f5c9-4ad0-bbf0-3761e42bd756",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3f089129-868b-4946-b531-b96b85b9a729"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
